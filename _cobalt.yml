@@ -1,0 +1,6 @@
+site:
+  title: CV
+  description: Bryan Reese's CV
+  base_url: https://bryanreese.net/cv/
+posts:
+  rss: rss.xml

@@ -1,0 +1,139 @@
+title = "Bryan Reese's Resume"
+
+goals = "Experienced solutions engineer seeking to work on new and challenging projects that provide an opportunity for growth. Supported IBM’s System X hardware and other development teams to provide an optimal experience for customers. Worked extensively and in depth with the whole of IBM Intelligent Cluster hardware and software portfolio"
+
+[[experience]]
+employer = "IBM"
+role = "Solutions Architect"
+when = "July 16, 2012 - September 2013"
+responsibilies = [
+  "Escalation point for Product Engineering team",
+  "Optimized customer configurations",
+  "Implemented System X architecture for Big Data and Smart Analytics",
+  "Developed solutions for new products to best meet needs for customers",
+]
+
+[[experience]]
+employer = "IBM"
+role = "HPC and Solutions Tester and Developer"
+when = "August 20 2007 - July 16 2012"
+responsibilies = [
+  "Develop test cases and validate all possible configurations for IBM’s e1350 cluster product.",
+  "Install and configure clusters and run MPI tests, Linpack, storage I/O, network I/O.",
+  "Automated and documented procedures for the configuration of clusters for customers",
+  "Administer Ethernet switches (Cisco), InfiniBand switches, SAN, Fiber Channel, and xCAT.",
+  "Provided third level support and worked with architects to provide easily supportable configurations",
+  "Implemented large projects including onsite install of multiple petaFLOP SuperMUC cluster in Germany",
+]
+
+[[education]]
+school = "Ivy Tech Community College"
+where = "Fort Wayne, IN"
+when = "2006"
+major = "Computer Information Systems"
+degree = "Associate in Applied Sciences"
+
+[[skills]]
+name = "Operating Systems"
+list = [
+  "RHEL",
+  "SLES",
+  "Debian",
+  "Ubuntu",
+  "Gentoo",
+  "Windows 3.11 to 10",
+  "DOS",
+]
+
+[[skills]]
+name = "Cluster Management"
+list = [
+  "Microsoft HPC Cluster Manager",
+  "xCAT",
+  "IPMI",
+  "Kickstart",
+  "PXE",
+  "GPFS",
+]
+
+[[skills]]
+name = "Computer Languages"
+list = [
+  "HTML",
+  "CSS",
+  "PHP",
+  "Javascript",
+  "BASH",
+  "LATEX",
+  "SQL",
+]
+
+[[skills]]
+name = "Tools and Daemons"
+list = [
+  "Apache",
+  "BIND",
+  "git",
+  "SSHD",
+  "NFS",
+  "CIFS",
+  "GCC",
+]
+
+[[skills]]
+name = "Interconnects"
+list = [
+  "InfiniBand",
+  "Ethernet",
+  "Fibre Channel",
+  "Myrinet",
+]
+
+[[skills]]
+name = "Storage"
+list = [
+  "SAN",
+  "iSCSI",
+  "FCoE",
+  "NAS",
+  "LSI",
+  "Brocade",
+  "QLogic",
+  "Emulex",
+]
+
+[[certs]]
+name = "Brocade Certified Fabric Administrator Gen 5"
+date = "February 17, 2014"
+
+[[certs]]
+name = "Brocade Certified Network Professional 2012"
+date = "December 6, 2013"
+
+[[certs]]
+name = "Brocade Certified Fabric Professional 2013"
+date = "January 7, 2014"
+
+[[certs]]
+name = "Brocade Certified Network Engineer 2012"
+date = "November 18, 2013"
+
+[[certs]]
+name = "Miller Heiman Certificate in Strategic Selling"
+date = "October 13, 2015"
+
+[[certs]]
+name = "Microsoft Office Specialist in Access 2002"
+date = "May 7, 2004"
+
+[[certs]]
+name = "CompTIA Linux+ Certified Professional"
+date = "December 16, 2004"
+
+[[certs]]
+name = "CompTIA i-Net+ Certified Professional"
+date = "May 2, 2006"
+
+[[certs]]
+name = "CompTIA A+ Certified Professional"
+date = "May 5, 2005"

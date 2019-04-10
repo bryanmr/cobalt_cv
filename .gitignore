@@ -1,0 +1,6 @@
+*~
+*.swp
+_site
+secrets
+node_modules
+package-lock.json

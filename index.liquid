@@ -1,0 +1,10 @@
+---
+layout: resume.liquid
+---
+<h1>Text!</h1>
+
+<p>{{ site.data.resume.goals }}</p>
+
+{% for job in site.data.resume.experience %}
+  <div>{{ job.role }}</div>
+{% endfor %}
