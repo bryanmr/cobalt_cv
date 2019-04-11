@@ -1,10 +1,64 @@
----
-layout: resume.liquid
----
-<h1>Text!</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.data.resume.name }}</title>
+  </head>
+  <body>
+    <h1>{{ site.data.resume.name }}'s CV</h1>
 
-<p>{{ site.data.resume.goals }}</p>
+    <h2>Summary</h2>
+    {% for summary in site.data.resume.summaries %}
+      <div class="{{ summary[0] | replace: " ", "_" | downcase }}">
+        <h3>{{ summary[0] }}</h3>
+        <p>{{ summary[1] }}</p>
+      </div>
+    {% endfor %}
 
-{% for job in site.data.resume.experience %}
-  <div>{{ job.role }}</div>
-{% endfor %}
+    <h2>Experience</h2>
+    {% for job in site.data.resume.experience %}
+      <div class="{{ job.role | replace: " ", "_" | downcase }}">
+        <div>
+          <h3>{{ job.employer }}</h3>
+          <div>{{ job.role }}</div>
+          <div>{{ job.when }}</div>
+          <ul>
+            {% for bullet in job.responsibilities %}
+            <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    {% endfor %}
+
+    <h2>Degrees</h2>
+    {% for ed in site.data.resume.education %}
+      <div>
+        <h3>{{ ed.school }}</h3>
+        <div>{{ ed.where }}</div>
+        <div>{{ ed.when }}</div>
+        <div>{{ ed.major }}</div>
+        <div>{{ ed.degree }}</div>
+      </div>
+    {% endfor %}
+
+    <h2>Skills</h2>
+    {% for skill in site.data.resume.skills %}
+      <div>
+        <h3>{{ skill.name }}</h3>
+        <ul>
+          {% for list in skill.list %}
+            <li>{{ list }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+
+    <h2>Certifications</h2>
+    <ul>
+      {% for cert in site.data.resume.certs %}
+        <li>{{ cert.name }} - {{ cert.date }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
