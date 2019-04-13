@@ -1,4 +1,5 @@
 name = "Bryan Reese"
+github_link = "https://github.com/bryanmr"
 
 roles = [
   "Solutions Architect",
@@ -7,9 +8,10 @@ roles = [
   "Web Developer",
   "Ethernet Networking Engineer",
   "Storage Networking Engineer",
+  "Security Analyst",
   "Sales Engineer",
   "Writer",
-  "Philosopher",
+  "Thinker",
 ]
 
 not_roles = [
@@ -26,13 +28,47 @@ summaries = [
   [ "Storage Networking Engineer", "I have worked extensively with Fibre Channel while employed at Brocade and while in the labs at IBM. Securing data and optimizing performance through concepts like zoning and routing are things I am familiar with.", ],
   ["Sales Engineer", "Sales is a skill that enables you to convince others. My experience as a sales engineer taught me how to know who to convince and how to avoid cognitive traps. I was taught on the Miller-Heiman sales methodology as well as Challenger. I worked with business development, marketing, and on-site sales extensively during my time at Brocade.", ],
   ["Writer", "Writing is something I enjoy and have done throughout my life and career. I have written hundreds of blog posts on various topics, created technical documentation, written white papers, and completed a novella. My writing has been published by Lenovo, IBM, and Brocade. I hope to one day complete a novel I have been working on, but do not want to accept mediocrity.", ],
-  ["Philosopher", "Understanding how the world works is very important to me. I enjoy topics big and small and know when I am reaching points I can not prove. I focus on epistemology and occassionally metaphysics. I stay away from politics, ethics, and other societal level problems. I can enjoy a good argument, but do not enjoy a fight.", ],
+  ["Thinker", "Understanding how the world works is very important to me. I enjoy topics big and small and know when I am reaching points I can not prove. I focus on epistemology and occassionally metaphysics. I stay away from politics, ethics, and other societal level problems. I have learned to understand what I can not understand, and to question those who have answers to questions that can't be answered.", ],
+]
+
+[[experience]]
+employer = "Self Employed"
+roles = [
+  "Writer",
+  "Thinker",
+]
+when = "January 2016 - April 2019"
+responsibilities = [
+  "Wrote 130 blog posts on various topics.",
+  "Completed a novella.",
+  "Worked on my novel, including a 20 page outline and 10 pages of notes.",
+  "Learned philosophy, enabling me to see the world through other people's perspectives.",
+]
+
+[[experience]]
+employer = "Brocade"
+roles = [
+  "Sales Engineer",
+  "Storage Networking Engineer",
+  "Solutions Architect",
+]
+when = "September 2013 - August 2016"
+responsibilities = [
+  "Provided support and training to Lenovo, IBM, and EMC",
+  "Worked on solutions with partners, writing white papers and creating designs",
+  "Configured proof of concepts and recreation of field problems in lab",
+  "Met with customers to work on RFPs",
+  "Provided assessment of CVEs to OEM partners",
+  "Created marketing material such as videos",
+  "Presented to clients and customers",
 ]
 
 [[experience]]
 employer = "IBM"
-role = "Solutions Architect"
-when = "July 16, 2012 - September 2013"
+roles = [
+  "Solutions Architect",
+]
+when = "July 2012 - September 2013"
 responsibilities = [
   "Escalation point for Product Engineering team",
   "Optimized customer configurations",
@@ -42,8 +78,10 @@ responsibilities = [
 
 [[experience]]
 employer = "IBM"
-role = "HPC Administrator"
-when = "August 20 2007 - July 16 2012"
+roles = [
+  "HPC Administrator",
+]
+when = "August 2007 - July 2012"
 responsibilities = [
   "Develop test cases and validate all possible configurations for IBM’s e1350 cluster product.",
   "Install and configure clusters and run MPI tests, Linpack, storage I/O, network I/O.",
@@ -164,3 +202,31 @@ date = "May 2, 2006"
 [[certs]]
 name = "CompTIA A+ Certified Professional"
 date = "May 5, 2005"
+
+[[projects]]
+name = "Steamy Cats"
+
+[[patents]]
+name = "Collaborative route reservation and ranking in high performance computing fabrics"
+number = 9762505
+filed = "January 7, 2014"
+
+[[patents]]
+name = "Role assignment for servers in a high performance computing system based on measured performance characteristics"
+number = 9692649
+filed = "February 26, 2014"
+
+[[patents]]
+name = "Positioning autonomous vehicles based on field of view"
+number = 9604642
+filed = "April 29, 2014"
+
+[[patents]]
+name = "Cooperative reduced power mode suspension for high input/output (‘I/O’) workloads"
+number = 9501128
+filed = "October 30, 2013"
+
+[[patents]]
+name = "Keyboard, video and mouse switch identifying and displaying nodes experiencing a problem"
+number = 9164851
+filed = "September 26, 2013"
