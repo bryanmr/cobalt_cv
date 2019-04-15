@@ -29,6 +29,7 @@ summaries = [
   ["Sales Engineer", "Sales is a skill that enables you to convince others. My experience as a sales engineer taught me how to know who to convince and how to avoid cognitive traps. I was taught on the Miller-Heiman sales methodology as well as Challenger. I worked with business development, marketing, and on-site sales extensively during my time at Brocade.", ],
   ["Writer", "Writing is something I enjoy and have done throughout my life and career. I have written hundreds of blog posts on various topics, created technical documentation, written white papers, and completed a novella. My writing has been published by Lenovo, IBM, and Brocade. I hope to one day complete a novel I have been working on, but do not want to accept mediocrity.", ],
   ["Thinker", "Understanding how the world works is very important to me. I enjoy topics big and small and know when I am reaching points I can not prove. I focus on epistemology and occassionally metaphysics. I stay away from politics, ethics, and other societal level problems. I have learned to understand what I can not understand, and to question those who have answers to questions that can't be answered.", ],
+  ["Security Analyst", "Part of understanding how everything works is learning what can break it or be exploited about it. At Brocade, one of the consistent problems we had within the organization was a lack of knowledge to be applied to understanding CVEs. Since I had spent time working on security, part of my job became analyzing CVEs and discussing security with our OEM partners.", ],
 ]
 
 [[experience]]
@@ -50,7 +51,9 @@ employer = "Brocade"
 roles = [
   "Sales Engineer",
   "Storage Networking Engineer",
+  "Ethernet Networking Engineer",
   "Solutions Architect",
+  "Security Analyst",
 ]
 when = "September 2013 - August 2016"
 responsibilities = [
@@ -80,6 +83,9 @@ responsibilities = [
 employer = "IBM"
 roles = [
   "HPC Administrator",
+  "Linux Administrator",
+  "Storage Networking Engineer",
+  "Ethernet Networking Engineer",
 ]
 when = "August 2007 - July 2012"
 responsibilities = [
@@ -99,6 +105,9 @@ major = "Computer Information Systems"
 degree = "Associate in Applied Sciences"
 
 [[skills]]
+roles = [
+  "Linux Administrator",
+]
 name = "Operating Systems"
 list = [
   "RHEL",
@@ -112,6 +121,9 @@ list = [
 
 [[skills]]
 name = "Cluster Management"
+roles = [
+  "Linux Administrator",
+]
 list = [
   "Microsoft HPC Cluster Manager",
   "xCAT",
@@ -122,6 +134,9 @@ list = [
 ]
 
 [[skills]]
+roles = [
+  "Linux Administrator",
+]
 name = "Computer Languages"
 list = [
   "HTML",
@@ -134,6 +149,9 @@ list = [
 ]
 
 [[skills]]
+roles = [
+  "Linux Administrator",
+]
 name = "Tools and Daemons"
 list = [
   "Apache",
@@ -146,6 +164,9 @@ list = [
 ]
 
 [[skills]]
+roles = [
+  "Linux Administrator",
+]
 name = "Interconnects"
 list = [
   "InfiniBand",
@@ -155,6 +176,9 @@ list = [
 ]
 
 [[skills]]
+roles = [
+  "Linux Administrator",
+]
 name = "Storage"
 list = [
   "SAN",
@@ -208,25 +232,25 @@ name = "Steamy Cats"
 
 [[patents]]
 name = "Collaborative route reservation and ranking in high performance computing fabrics"
-number = 9762505
+number = "US9762505B2"
 filed = "January 7, 2014"
 
 [[patents]]
 name = "Role assignment for servers in a high performance computing system based on measured performance characteristics"
-number = 9692649
+number = "US9692649B2"
 filed = "February 26, 2014"
 
 [[patents]]
 name = "Positioning autonomous vehicles based on field of view"
-number = 9604642
+number = "US9604642B2"
 filed = "April 29, 2014"
 
 [[patents]]
 name = "Cooperative reduced power mode suspension for high input/output (‘I/O’) workloads"
-number = 9501128
+number = "US9501128B2"
 filed = "October 30, 2013"
 
 [[patents]]
 name = "Keyboard, video and mouse switch identifying and displaying nodes experiencing a problem"
-number = 9164851
+number = "US8943373B1"
 filed = "September 26, 2013"

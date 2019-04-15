@@ -1,4 +1,12 @@
-.projects, .certs, .skills, .degrees, .experience, .summary {
+main {
+  width: 50%;
+  margin: 0px auto;
+}
+main > h2 {
+  text-align: center;
+  width: 100%;
+}
+.projects, .certs, .skills, .experience, .summary, .patents, .degrees {
   display: none;
 }
 #main_head {
@@ -14,6 +22,14 @@
 }
 #main_head a {
   padding: 10px;
+}
+.flex_row_wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flex_row_wrapper > * {
+  margin: 20px;
 }
 .active {
   background-color: black;
