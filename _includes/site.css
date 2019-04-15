@@ -2,7 +2,7 @@ main {
   width: 50%;
   margin: 0px auto;
 }
-main > h2 {
+section > h2 {
   text-align: center;
   width: 100%;
 }
@@ -23,6 +23,15 @@ main > h2 {
 #main_head a {
   padding: 10px;
 }
+.patents_list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.patents_list > li {
+  flex: 0 0 40%;
+  margin: 10px;
+}
 .flex_row_wrapper {
   display: flex;
   flex-flow: row wrap;
@@ -30,6 +39,23 @@ main > h2 {
 }
 .flex_row_wrapper > * {
   margin: 20px;
+}
+.flex_header {
+  display: flex;
+  flex-flow: row wrap;
+}
+.flex_header > h3 {
+  margin: 0;
+}
+.flex_header div {
+  display: flex;
+  align-items: center;
+}
+.flex_header div:first-of-type {
+  font-weight: bold;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .active {
   background-color: black;

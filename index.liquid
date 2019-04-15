@@ -25,6 +25,7 @@
     {% endcapture %}
 
     <main>
+    <section>
     <h2>Summary</h2>
     {%- for summary in site.data.resume.summaries %}
     <div class="summary {{ summary[0] | replace: " ", "_" | downcase }}">
@@ -32,7 +33,9 @@
       <p>{{ summary[1] }}</p>
     </div>
     {%- endfor %}
+    </section>
 
+    <section>
     <h2>Experience</h2>
     {%- for job in site.data.resume.experience %}
     {% capture roles %}
@@ -41,9 +44,11 @@
       {%- endfor -%}
     {% endcapture %}
     <div class="experience {{ roles }}">
+      <div class="flex_header">
       <h3>{{ job.employer }}</h3>
       <div>{{ job.roles[0] }}</div>
       <div>{{ job.when }}</div>
+      </div>
       <ul>
         {%- for bullet in job.responsibilities -%}
         <li>{{ bullet }}</li>
@@ -51,14 +56,56 @@
       </ul>
     </div>
     {%- endfor %}
+    </section>
 
+    <section>
     <h2>Patents</h2>
-    <ul class="patents {{ allroles }}">
+    <div class="patents {{ allroles }}">
+    <ul class="patents_list">
       {%- for patent in site.data.resume.patents %}
       <li><b>{{ patent.name }}</b> as <a target="_blank" href="https://patents.google.com/patent/{{ patent.number }}">{{ patent.number }}</a> on <em>{{ patent.filed }}</em></li>
       {%- endfor %}
     </ul>
+    </div>
+    </section>
 
+
+    <section>
+    <h2>Certifications</h2>
+    <ul class="certs">
+      {%- for cert in site.data.resume.certs %}
+      <li>{{ cert.name }} - {{ cert.date }}</li>
+      {%- endfor %}
+    </ul>
+    </section>
+
+    <section>
+    <h2>Projects</h2>
+    <ul class="projects">
+      {%- for project in site.data.resume.projects %}
+      <li>{{ project.name }}</li>
+      {%- endfor %}
+    </ul>
+    </section>
+
+    <section>
+    <h2>Degrees</h2>
+    {%- for ed in site.data.resume.education %}
+    <div class="degrees {{ allroles }}">
+      <div class="flex_header">
+      <h3>{{ ed.degree }}</h3>
+      <div>{{ ed.major }}</div>
+      </div>
+      <div class="flex_header">
+      <h3>{{ ed.school }}</h3>
+      <div>{{ ed.where }}</div>
+      <div>{{ ed.when }}</div>
+      </div>
+    </div>
+    {%- endfor %}
+    </section>
+
+    <section>
     <h2>Skills</h2>
     <div class="flex_row_wrapper">
       {%- for skill in site.data.resume.skills %}
@@ -77,31 +124,7 @@
       </section>
       {%- endfor %}
     </div>
-
-    <h2>Certifications</h2>
-    <ul class="certs">
-      {%- for cert in site.data.resume.certs %}
-      <li>{{ cert.name }} - {{ cert.date }}</li>
-      {%- endfor %}
-    </ul>
-
-    <h2>Projects</h2>
-    <ul class="projects">
-      {%- for project in site.data.resume.projects %}
-      <li>{{ project.name }}</li>
-      {%- endfor %}
-    </ul>
-
-    <h2>Degrees</h2>
-    {%- for ed in site.data.resume.education %}
-    <div class="degrees {{ allroles }}">
-      <h3>{{ ed.school }}</h3>
-      <div>{{ ed.where }}</div>
-      <div>{{ ed.when }}</div>
-      <div>{{ ed.major }}</div>
-      <div>{{ ed.degree }}</div>
-    </div>
-    {%- endfor %}
+    </section>
     </main>
 
     <script>
