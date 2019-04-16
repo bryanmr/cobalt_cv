@@ -26,7 +26,7 @@
 
     <main>
     <section>
-    <h2>Summary</h2>
+      <h2 class="summary {{ allroles }}">Summary</h2>
     {%- for summary in site.data.resume.summaries %}
     <div class="summary {{ summary[0] | replace: " ", "_" | downcase }}">
       <h3 class="summary_head">{{ summary[0] }}</h3>
@@ -36,7 +36,7 @@
     </section>
 
     <section>
-    <h2>Experience</h2>
+    <h2 class="experience {{ allroles }}">Experience</h2>
     {%- for job in site.data.resume.experience %}
     {% capture roles %}
       {%- for role in job.roles -%}
@@ -59,7 +59,7 @@
     </section>
 
     <section>
-    <h2>Patents</h2>
+    <h2 class="patents {{ allroles }}">Patents</h2>
     <div class="patents {{ allroles }}">
     <ul class="patents_list">
       {%- for patent in site.data.resume.patents %}
@@ -71,7 +71,7 @@
 
 
     <section>
-    <h2>Certifications</h2>
+    <h2 class="certs {{ allroles }}">Certifications</h2>
     <ul>
       {%- for cert in site.data.resume.certs %}
       {% capture roles %}
@@ -85,7 +85,7 @@
     </section>
 
     <section>
-    <h2>Projects</h2>
+    <h2 class="projects {{ allroles }}">Projects</h2>
     <ul>
       {%- for project in site.data.resume.projects %}
       {% capture roles %}
@@ -99,7 +99,7 @@
     </section>
 
     <section>
-    <h2>Degrees</h2>
+    <h2 class="degrees {{ allroles }}">Degrees</h2>
     {%- for ed in site.data.resume.education %}
     <div class="degrees {{ allroles }}">
       <div class="flex_header">
@@ -116,7 +116,7 @@
     </section>
 
     <section>
-    <h2>Skills</h2>
+    <h2 class="skills {{ allroles }}">Skills</h2>
     <div class="flex_row_wrapper">
       {%- for skill in site.data.resume.skills %}
       {% capture roles %}

@@ -101,6 +101,7 @@ degree = "Associate in Applied Sciences"
 [[skills]]
 roles = [
   "Linux Administrator",
+  "Security Analyst",
 ]
 name = "Operating Systems"
 list = [
@@ -117,6 +118,7 @@ list = [
 name = "Cluster Management"
 roles = [
   "Linux Administrator",
+  "HPC Administrator",
 ]
 list = [
   "Microsoft HPC Cluster Manager",
@@ -130,16 +132,17 @@ list = [
 [[skills]]
 roles = [
   "Linux Administrator",
+  "Web Developer",
 ]
 name = "Computer Languages"
 list = [
   "HTML",
   "CSS",
   "PHP",
-  "Javascript",
+  "JavaScript",
   "BASH",
-  "LATEX",
   "SQL",
+  "LATEX",
 ]
 
 [[skills]]
@@ -160,6 +163,9 @@ list = [
 [[skills]]
 roles = [
   "Linux Administrator",
+  "Storage Networking Engineer",
+  "Ethernet Networking Engineer",
+  "HPC Administrator",
 ]
 name = "Interconnects"
 list = [
@@ -172,6 +178,7 @@ list = [
 [[skills]]
 roles = [
   "Linux Administrator",
+  "Storage Networking Engineer",
 ]
 name = "Storage"
 list = [
@@ -189,42 +196,42 @@ list = [
 name = "Brocade Certified Fabric Administrator Gen 5"
 date = "February 17, 2014"
 roles = [
-  "Linux Administrator",
+  "Storage Networking Engineer",
 ]
 
 [[certs]]
 name = "Brocade Certified Network Professional 2012"
 date = "December 6, 2013"
 roles = [
-  "Linux Administrator",
+  "Ethernet Networking Engineer",
 ]
 
 [[certs]]
 name = "Brocade Certified Fabric Professional 2013"
 date = "January 7, 2014"
 roles = [
-  "Linux Administrator",
+  "Ethernet Networking Engineer",
 ]
 
 [[certs]]
 name = "Brocade Certified Network Engineer 2012"
 date = "November 18, 2013"
 roles = [
-  "Linux Administrator",
+  "Ethernet Networking Engineer",
 ]
 
 [[certs]]
 name = "Miller Heiman Certificate in Strategic Selling"
 date = "October 13, 2015"
 roles = [
-  "Linux Administrator",
+  "Sales Engineer",
 ]
 
 [[certs]]
 name = "Microsoft Office Specialist in Access 2002"
 date = "May 7, 2004"
 roles = [
-  "Linux Administrator",
+  "Web Developer",
 ]
 
 [[certs]]
@@ -239,6 +246,7 @@ name = "CompTIA i-Net+ Certified Professional"
 date = "May 2, 2006"
 roles = [
   "Linux Administrator",
+  "Ethernet Networking Engineer",
 ]
 
 [[certs]]
@@ -253,6 +261,7 @@ name = "Steamy Cats"
 url = "https://github.com/bryanmr/Steamy_Cats"
 roles = [
   "Linux Administrator",
+  "Web Developer",
 ]
 
 [[patents]]
