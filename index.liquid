@@ -29,7 +29,7 @@
     <h2>Summary</h2>
     {%- for summary in site.data.resume.summaries %}
     <div class="summary {{ summary[0] | replace: " ", "_" | downcase }}">
-      <h3>{{ summary[0] }}</h3>
+      <h3 class="summary_head">{{ summary[0] }}</h3>
       <p>{{ summary[1] }}</p>
     </div>
     {%- endfor %}
@@ -72,18 +72,28 @@
 
     <section>
     <h2>Certifications</h2>
-    <ul class="certs">
+    <ul>
       {%- for cert in site.data.resume.certs %}
-      <li>{{ cert.name }} - {{ cert.date }}</li>
+      {% capture roles %}
+        {%- for role in cert.roles -%}
+        {{ role | replace: " ", "_" | downcase }}{{ " " }}
+        {%- endfor -%}
+      {% endcapture %}
+      <li class="certs {{ roles }}"><b>{{ cert.name }}</b> - {{ cert.date }}</li>
       {%- endfor %}
     </ul>
     </section>
 
     <section>
     <h2>Projects</h2>
-    <ul class="projects">
+    <ul>
       {%- for project in site.data.resume.projects %}
-      <li>{{ project.name }}</li>
+      {% capture roles %}
+        {%- for role in project.roles -%}
+        {{ role | replace: " ", "_" | downcase }}{{ " " }}
+        {%- endfor -%}
+      {% endcapture %}
+      <li class="projects {{ roles }}"><a href="{{ project.url }}">{{ project.name }}</a></li>
       {%- endfor %}
     </ul>
     </section>

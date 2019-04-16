@@ -23,6 +23,17 @@ section > h2 {
 #main_head a {
   padding: 10px;
 }
+.summary {
+  padding-bottom: 10px;
+}
+.summary > h3 {
+  display: inline;
+  margin: 0;
+  padding-right: 20px;
+}
+.summary > p {
+  display: inline;
+}
 .patents_list {
   display: flex;
   flex-flow: row wrap;

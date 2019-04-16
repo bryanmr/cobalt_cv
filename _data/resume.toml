@@ -1,5 +1,4 @@
 name = "Bryan Reese"
-github_link = "https://github.com/bryanmr"
 
 roles = [
   "Solutions Architect",
@@ -12,11 +11,6 @@ roles = [
   "Sales Engineer",
   "Writer",
   "Thinker",
-]
-
-not_roles = [
-  "Artist",
-  "Designer",
 ]
 
 summaries = [
@@ -194,41 +188,72 @@ list = [
 [[certs]]
 name = "Brocade Certified Fabric Administrator Gen 5"
 date = "February 17, 2014"
+roles = [
+  "Linux Administrator",
+]
 
 [[certs]]
 name = "Brocade Certified Network Professional 2012"
 date = "December 6, 2013"
+roles = [
+  "Linux Administrator",
+]
 
 [[certs]]
 name = "Brocade Certified Fabric Professional 2013"
 date = "January 7, 2014"
+roles = [
+  "Linux Administrator",
+]
 
 [[certs]]
 name = "Brocade Certified Network Engineer 2012"
 date = "November 18, 2013"
+roles = [
+  "Linux Administrator",
+]
 
 [[certs]]
 name = "Miller Heiman Certificate in Strategic Selling"
 date = "October 13, 2015"
+roles = [
+  "Linux Administrator",
+]
 
 [[certs]]
 name = "Microsoft Office Specialist in Access 2002"
 date = "May 7, 2004"
+roles = [
+  "Linux Administrator",
+]
 
 [[certs]]
 name = "CompTIA Linux+ Certified Professional"
 date = "December 16, 2004"
+roles = [
+  "Linux Administrator",
+]
 
 [[certs]]
 name = "CompTIA i-Net+ Certified Professional"
 date = "May 2, 2006"
+roles = [
+  "Linux Administrator",
+]
 
 [[certs]]
 name = "CompTIA A+ Certified Professional"
 date = "May 5, 2005"
+roles = [
+  "Linux Administrator",
+]
 
 [[projects]]
 name = "Steamy Cats"
+url = "https://github.com/bryanmr/Steamy_Cats"
+roles = [
+  "Linux Administrator",
+]
 
 [[patents]]
 name = "Collaborative route reservation and ranking in high performance computing fabrics"
