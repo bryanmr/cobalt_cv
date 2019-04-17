@@ -6,9 +6,6 @@ section > h2 {
   text-align: center;
   width: 100%;
 }
-.projects, .certs, .skills, .experience, .summary, .patents, .degrees {
-  display: none;
-}
 #main_head {
   position: sticky;
   top: 0;

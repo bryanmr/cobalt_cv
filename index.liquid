@@ -72,7 +72,7 @@
 
     <section>
     <h2 class="certs {{ allroles }}">Certifications</h2>
-    <ul>
+    <ul class="{{ allroles }}">
       {%- for cert in site.data.resume.certs %}
       {% capture roles %}
         {%- for role in cert.roles -%}
@@ -86,7 +86,7 @@
 
     <section>
     <h2 class="projects {{ allroles }}">Projects</h2>
-    <ul>
+    <ul class="{{ allroles }}">
       {%- for project in site.data.resume.projects %}
       {% capture roles %}
         {%- for role in project.roles -%}
@@ -137,6 +137,13 @@
     </section>
     </main>
 
+    <script>
+      {% for role in site.data.resume.roles -%}
+      document.querySelectorAll('.{{ role | replace: " ", "_" | downcase }}').forEach((roleDiv) => {
+        roleDiv.hidden = true;
+      });
+      {% endfor -%}
+    </script>
     <script>
       {% include site.js %}
     </script>
