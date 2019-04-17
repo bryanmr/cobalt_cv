@@ -138,6 +138,7 @@
     </main>
 
     <script>
+      var globalShow = new Set();
       {% for role in site.data.resume.roles -%}
       document.querySelectorAll('.{{ role | replace: " ", "_" | downcase }}').forEach((roleDiv) => {
         roleDiv.hidden = true;
